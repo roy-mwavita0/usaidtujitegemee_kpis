@@ -2,7 +2,8 @@
 title: "Key Performance Indicators for the USAID TUJITEGEMEE Project"
 author: "Roy Mwavita (MEAL Officer at CIPK implementing USAID TUJITEGEMEE Project)"
 output:
- powerpoint_presentation: default
+  slidy_presentation: default
+  ioslides_presentation: default
 date: "`r Sys.Date()`"
 abstract: >
   This presentation covers the key performance indicators (KPIs) for the USAID TUJITEGEMEE Project.
