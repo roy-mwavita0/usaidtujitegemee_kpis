@@ -4,7 +4,7 @@ author: "Roy Mwavita (MEAL Officer at CIPK implementing USAID TUJITEGEMEE Projec
 output:
   slidy_presentation: default
   ioslides_presentation: default
-date: "`r Sys.Date()`"
+date: "August 3rd 2024"
 abstract: >
   This presentation covers the key performance indicators (KPIs) for the USAID TUJITEGEMEE Project.
   The KPIs are used to evaluate the project's progress and impact on the targeted communities.
