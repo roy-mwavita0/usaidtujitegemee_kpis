@@ -25,7 +25,7 @@ This is through a cooperative agreement signed with Ananda Marga Universal Relie
 
 The USAID TUJITEGEMEE Project aims to improve the lives of Orphans and Vulnerable Children (OVC) by addressing their needs through various interventions. 
 
-**This presentation provides an overview of the key performance indicators (KPIs) used to measure the project's success.**
+This presentation provides an overview of the key performance indicators (KPIs) used to measure the project's success.
 
     </td>
     <td style="width: 40%; text-align: right;">
@@ -46,7 +46,7 @@ This process is typically referred to as case management.
 
 # Case Management Process
 
-  <img src="case_management_process.png" style="width: 70%; height: 60%; margin-right: 20px;" />
+  <img src="case_management.png" style="width: 70%; height: 60%; margin-right: 20px;" />
 
 
 # Target Beneficiaries
@@ -141,15 +141,12 @@ Child Protection Information Management System (CPIMS) and PIMS, including:
 </div>
 
 # Analysis Methodology
-
-
 <table>
   <tr>
     <td style="width: 50%;">
-
- Key performance indicators were calculated for different interventions and compared against targets. 
+Key performance indicators were calculated for different interventions and compared against targets. 
  
- Summary statistics and visualizations were employed to assess the progress and impact of the interventions, providing a clear view of performance relative to the set objectives.
+Summary statistics and visualizations were employed to assess the progress and impact of the interventions, providing a clear view of performance relative to the set objectives.
     </td>
     <td style="width: 50%; text-align: right;">
       <img src="analyst.jpg" style="width: 80%; height: auto;"/>
@@ -1330,7 +1327,7 @@ Teens (both boys and girls) between 10-14 years and not enrolled in a comprehens
 - Improve problem solving and communication skills (both teenagers and parents)
 
 # Sinovuyo Achievement
-Below is CIPK's performance for each constituency.
+Below is an overview of CIPK’s performance across each constituency.
 
 ```{r sinovuyo table, echo=FALSE}
 teen_survey_summary %>% 
@@ -1355,7 +1352,7 @@ Out of the enrolled `r teen_survey_summary[3,3]` teens, `r teen_survey_summary[3
 # CBIM Preventive Program
 Coaching Boys Into Men (CBIM) is an evidence-based violence prevention program that trains and motivates high school coaches to teach their young male athletes in healthy relationship skills, mental health practices, and that violence never equals strength through 12 weekly discussions in what is called card series.
 
-Below is CIPK's performance for each constituency.
+Below is an overview of CIPK’s performance across each constituency.
 
 ```{r cbim table, echo=FALSE}
 boys_survey_summary %>% 
@@ -1373,7 +1370,7 @@ boys_survey_summary %>%
         boys_survey_summary[3,2], "boys.")
 }`
 
-Out of the enrolled `r boys_survey_summary[3,3]` boys, `r boys_survey_summary[3,4]` boys have completed their 12 card series, which translates to `r boys_survey_summary[3,5]`. 
+**Out of the enrolled `r boys_survey_summary[3,3]` boys, `r boys_survey_summary[3,4]` boys have completed their 12 card series, which translates to `r boys_survey_summary[3,5]`. **
 
 # Graduated OVC
 
@@ -1442,12 +1439,13 @@ monitoring_table <- graduation_target %>%
 ```
 
 
-Case plan achievement implies successful achievement of case plan goals agreed on by the client (child and family) and the case worker. It is the ideal pathway for exiting an OVC program. 
+* Case plan achievement implies successful achievement of case plan goals agreed on by the client (child and family) and the case worker. It is the ideal pathway for exiting an OVC program. 
 
-Within the context of OVC programs, case plan achievement is broadly understood as the point at which a child and family are able to meet their basic needs and recognized benchmarks in the areas of safety or protection, stability, education, and health, and no longer require the interventions offered by an OVC program.
+* Within the context of OVC programs, case plan achievement is broadly understood as the point at which a child and family are able to meet their basic needs and recognized benchmarks in the areas of safety or protection, stability, education, and health, and no longer require the interventions offered by an OVC program. 
+
+The point at which HH members and their case worker jointly agree that the HH has demonstrated the ability to meet basic OVC HH needs to a reasonable degree (quantitatively measured as having achieved all required graduation benchmarks) and is no longer in need of PEPFAR support.  
 
 The following summary outlines CIPK's performance relative to the graduation targets for FY24.
-
 
 ```{r cpa table, echo=FALSE}
 cpa %>% 
@@ -1513,7 +1511,7 @@ comprehensive_serv_table <- cop_target_sw %>%
 
 ```
 
-The summary below details the number of OVCs that CIPK has successfully reached through its service provision.
+* The summary below details the number of OVCs that CIPK has successfully reached through its service provision.
 
 ```{r comprehensive serv table, echo=FALSE}
 comprehensive_serv_table %>% 
@@ -1527,11 +1525,11 @@ comprehensive_serv_table %>%
 
 # OVC_SERV
 
-The goal of OVC programs is to build stability and resiliency in children and families who are exposed, living with, at risk of, or affected by HIV/AIDS. This is achieved through rigorous case management and provision of and access to health and socio-economic interventions. 
+* The goal of OVC programs is to build stability and resiliency in children and families who are exposed, living with, at risk of, or affected by HIV/AIDS. This is achieved through rigorous case management and provision of and access to health and socio-economic interventions. 
 
-Therefore, OVC_SERV is a direct (output) measure of the number of individuals receiving PEPFAR OVC program services for children and families affected by HIV/AIDS.
+* Therefore, OVC_SERV is a direct (output) measure of the number of individuals receiving PEPFAR OVC program services for children and families affected by HIV/AIDS.
 
-The total numerator of this indicator is disaggregated by Program Participation Status: **“ACTIVE”** to track the number of OVC and caregivers actively enrolled in an OVC program and receiving services, or **completed Preventive sessions**, and **“Graduated”** to track the number of OVC and caregivers graduating from PEPFAR OVC programs.
+* The total numerator of this indicator is disaggregated by Program Participation Status: **“ACTIVE”** to track the number of OVC and caregivers actively enrolled in an OVC program and receiving services, or **completed Preventive sessions**, and **“Graduated”** to track the number of OVC and caregivers graduating from PEPFAR OVC programs.
 
 # Program Participation Status Definitions
 
@@ -1594,13 +1592,13 @@ ovc_serv_table %>%
 
 # OVC_HIVSTAT
 
-This is an indicator described as the percentage of orphans and vulnerable children (<18 years old and 18-20 years old) enrolled in the OVC Comprehensive program with HIV status reported to implementing partner.
-
++ This is an indicator described as the percentage of orphans and vulnerable children (<18 years old and 18-20 years old) enrolled in the OVC Comprehensive program with HIV status reported to implementing partner.
 <br><br>
- The goal of monitoring OVC_HIVSTAT is to increase the proportion of children reported as active or graduated under OVC_SERV under age 18 with a known HIV status or for whom an HIV test is not required based on a risk assessment.
- 
+
+ + The goal of monitoring OVC_HIVSTAT is to increase the proportion of children reported as active or graduated under OVC_SERV under age 18 with a known HIV status or for whom an HIV test is not required based on a risk assessment.
  <br><br>
-This indicator is NOT intended to be an indicator of HIV tests performed or receipt of testing results, as these are measured elsewhere, and confirmed test results are frequently unavailable to community organizations due to health facility concerns about patient confidentiality. 
+ 
++ This indicator is NOT intended to be an indicator of HIV tests performed or receipt of testing results, as these are measured elsewhere, and confirmed test results are frequently unavailable to community organizations due to health facility concerns about patient confidentiality. 
  
 # How to Calculate OVC_HIVSTAT
  
@@ -1752,3 +1750,20 @@ print(donut_chart)
 </div>
 
 </div>
+
+
+# Case Plan Achievement Readiness Assessment (CPARA)
+
+<table>
+  <tr>
+    <td style="width: 30%;">
+Annual case plan achievement and readiness assessments (CPARA), facilitated by OVC case workers, measure HH achievement of OVC benchmarks and determines readiness to graduate. 
+
+The CPARA categorizes each OVC HH into one of four vulnerability categories, based on graduation benchmark
+     </td>
+       <td style="width: 70%; text-align: right;">
+      <img src="pathways.png" style="width: 90%; height: 100%;"/>
+    </td>
+  </tr>
+</table>
+
